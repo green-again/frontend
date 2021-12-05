@@ -8,6 +8,7 @@ export const FlexCenter = css`
 
 export const FlexEvenly = css`
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
 `; 
 
@@ -15,3 +16,4 @@ export const FlexColumn = css`
     display: flex;
     flex-direction: column;
 `;
+
